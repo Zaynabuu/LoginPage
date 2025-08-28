@@ -1,0 +1,183 @@
+body{
+    font-family: sans-serif, Arial, Verdana, Tahoma;
+    background-color: #f4f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 12px;
+    }
+form{
+    padding-right: 20px;
+}
+.container{
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+    background: linear-gradient(180deg, rgb(238, 231, 238) 10%, white 20%);
+    padding:20px;
+}
+.image img{
+    background-color: #ccc;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.socialmedia button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 0 solid #ccc;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width:100%;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+.google {
+  width: 50px;       
+  height: 40px;      
+  display: flex;     
+  align-items: center; 
+  justify-content: center; 
+  border: none;
+  border-radius: 50%; 
+  background: #fff;   
+  font-size: 24px;    
+  cursor: pointer;
+}
+.google i {
+  font-size: 14px;
+  background: linear-gradient(to bottom, red, yellow, green, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.apple {
+  width: 50px;       
+  height: 40px;     
+  display: flex;     
+  align-items: center; 
+  justify-content: center; 
+  border: none;
+  border-radius: 50%; 
+  background: #fff; 
+  font-size: 24px;    
+  cursor: pointer;
+}
+.facebook {
+  width: 50px;       
+  height: 40px;      
+  display: flex;    
+  align-items: center; 
+  justify-content: center; 
+  border: none;
+  border-radius: 50%; 
+  background: #fff;  
+  font-size: 24px;    
+  cursor: pointer;
+  color: blue;
+}
+.or{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    color: gray;
+}
+.or hr{
+    flex:1;
+    border: none;
+    border-top: 1px solid gray;
+}
+.or span{
+  margin: 0 10px;
+}
+hr{
+    flex:1;
+    border: none;
+    border-top: 1px solid gray;
+    opacity: 0.1;
+}
+.input-label{
+    text-align:left;
+    margin-bottom:10px;
+}
+.input-label label{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+.input-label input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0 solid #f7f5f5;
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
+}
+.eye-icon {
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color:gray;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.checkbox input{
+    border: 0.1px solid #f7f5f5;
+}
+.footer{
+    font-size: 12px;
+    margin-top: 10px;
+    color: black;
+}
+.footer a{
+    color:purple;
+    text-decoration: none;
+}
+.checkbox a{
+    color:purple;
+}
+p {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.password1 {
+  position: relative;
+}
+
+.signin{
+    background:linear-gradient(to right, #725dac, #60488b);
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 106%;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(250, 238, 238, 1);
+    border: 1px solid rgba(250, 238, 238, 1);
+}
